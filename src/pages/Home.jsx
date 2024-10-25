@@ -79,7 +79,7 @@ function Home() {
         <div className="relative w-80 h-80">
           <img
             className="rounded-full w-full h-full object-cover opacity-70 hover:opacity-100 hover:scale-105 transition-transform duration-300"
-            src="/src/assets/profile2.JPG"
+            src="/profile2.jpg"
             alt="Profile"
           />
          

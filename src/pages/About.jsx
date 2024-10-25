@@ -20,7 +20,7 @@ function About() {
       >
         <figure className="lg:w-full w-full lg:h-auto h-72 overflow-hidden opacity-65 hover:opacity-100 transition duration-500 ease-in-out">
           <img
-            src="/src/assets/profile.JPG"
+            src="/profile.JPG"
             alt="Profile"
             className="object-cover w-full h-full"
           />
@@ -59,15 +59,15 @@ function About() {
             }`}
           >
             {[
-              { src: "/src/assets/react-origina.png", label: "React" },
-              { src: "/src/assets/JS.png", label: "JavaScript" },
-              { src: "/src/assets/html.png", label: "HTML" },
-              { src: "/src/assets/node.png", label: "Node.js" },
-              { src: "/src/assets/socket-io.png", label: "Socket.io" },
-              { src: "/src/assets/mogodb.png", label: "MongoDb" },
-              { src: "/src/assets/css-logo.png", label: "CSS" },
-              { src: "/src/assets/express-js.png", label: "Express.js" },
-              { src: "/src/assets/tailwind.png", label: "Tailwind" },
+              { src: "/react-origina.png", label: "React" },
+              { src: "/JS.png", label: "JavaScript" },
+              { src: "/html.png", label: "HTML" },
+              { src: "/node.png", label: "Node.js" },
+              { src: "/socket-io.png", label: "Socket.io" },
+              { src: "/mogodb.png", label: "MongoDb" },
+              { src: "/css-logo.png", label: "CSS" },
+              { src: "/express-js.png", label: "Express.js" },
+              { src: "/tailwind.png", label: "Tailwind" },
             ].map((tech) => (
               <div
                 key={tech.label}
