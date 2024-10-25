@@ -1,0 +1,10 @@
+body {
+  background-image:url("/src/assets/we.jpg");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  width: 100%; 
+}
+.hover\:rotate-360:hover {
+  transform: rotate(360deg);
+}
